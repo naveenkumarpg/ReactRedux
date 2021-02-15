@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./css/style.css";
+import reportWebVitals from "./reportWebVitals";
 
 // useState Examples
 // import App from "./Hooks/useState/example1";
@@ -16,9 +17,11 @@ import "./css/style.css";
 // import App from "./Hooks/useEffect/example6";
 
 // useRef Examples
-import App from "./Hooks/useRef/example1";
+// import App from "./Hooks/useRef/example1";
 
-import reportWebVitals from "./reportWebVitals";
+// useContext Examples
+
+import App from "./Hooks/useContext/example1/index";
 
 ReactDOM.render(
   <React.StrictMode>
