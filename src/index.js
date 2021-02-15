@@ -19,9 +19,15 @@ import reportWebVitals from "./reportWebVitals";
 // useRef Examples
 // import App from "./Hooks/useRef/example1";
 
-// useContext Examples
+// useMemo Examples
+import App from "./Hooks/useMemo/example1";
 
-import App from "./Hooks/useContext/example1/index";
+// useContext Examples
+// import App from "./Hooks/useContext/example1/index";
+
+// useReducer example
+// import App from "./Hooks/useReducer/example1/index";
+// import App from "./Hooks/useReducer/example2/index";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -30,7 +36,4 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

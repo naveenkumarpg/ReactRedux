@@ -11,3 +11,14 @@
 .green {
   background-color: green;
 }
+
+.bgray {
+  background-color: gray;
+  padding: 10px;
+  color: white;
+}
+.bgreen {
+  color: white;
+  padding: 10px;
+  background-color: green;
+}
