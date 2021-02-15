@@ -1,0 +1,13 @@
+.gray,
+.green {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+.gray {
+  background-color: gray;
+}
+.green {
+  background-color: green;
+}
