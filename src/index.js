@@ -3,10 +3,14 @@ import ReactDOM from "react-dom";
 import "./css/style.css";
 // import App from "./Hooks/useState/example1";
 // import App from "./Hooks/useState/example2";
+// import App from "./Hooks/useState/example3";
 
 // import App from "./Hooks/useEffect/example1";
 // import App from "./Hooks/useEffect/example2";
-import App from "./Hooks/useEffect/example3";
+// import App from "./Hooks/useEffect/example3";
+// import App from "./Hooks/useEffect/example4";
+// import App from "./Hooks/useEffect/example5";
+import App from "./Hooks/useEffect/example6";
 
 import reportWebVitals from "./reportWebVitals";
 
