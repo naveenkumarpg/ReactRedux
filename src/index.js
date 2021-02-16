@@ -7,6 +7,7 @@ import reportWebVitals from "./reportWebVitals";
 // import App from "./Hooks/useState/example1";
 // import App from "./Hooks/useState/example2";
 // import App from "./Hooks/useState/example3";
+// import App from "./Hooks/useState/example4";
 
 // useEffect  Exampeles
 // import App from "./Hooks/useEffect/example1";
@@ -20,10 +21,11 @@ import reportWebVitals from "./reportWebVitals";
 // import App from "./Hooks/useRef/example1";
 
 // useMemo Examples
-import App from "./Hooks/useMemo/example1";
+// import App from "./Hooks/useMemo/example1";
 
 // useContext Examples
 // import App from "./Hooks/useContext/example1/index";
+import App from "./Hooks/useContext/example2/index";
 
 // useReducer example
 // import App from "./Hooks/useReducer/example1/index";
