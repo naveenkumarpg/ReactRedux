@@ -1,3 +1,7 @@
+.error {
+  color: red;
+}
+
 .gray,
 .green {
   width: 100px;
@@ -8,6 +12,7 @@
 .gray {
   background-color: gray;
 }
+
 .green {
   background-color: green;
 }
@@ -35,4 +40,8 @@ table td {
 
 .center {
   text-align: center;
+}
+
+button {
+  margin-right: 10px;
 }
