@@ -22,3 +22,17 @@
   padding: 10px;
   background-color: green;
 }
+
+table {
+  border-collapse: collapse;
+  vertical-align: top;
+}
+
+table td {
+  padding: 10px;
+  vertical-align: top;
+}
+
+.center {
+  text-align: center;
+}
