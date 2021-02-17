@@ -25,11 +25,13 @@ import reportWebVitals from "./reportWebVitals";
 
 // useContext Examples
 // import App from "./Hooks/useContext/example1/index";
-import App from "./Hooks/useContext/example2/index";
+// import App from "./Hooks/useContext/example2/index";
 
 // useReducer example
 // import App from "./Hooks/useReducer/example1/index";
 // import App from "./Hooks/useReducer/example2/index";
+
+// useReducer & useContext example
 
 ReactDOM.render(
   <React.StrictMode>
