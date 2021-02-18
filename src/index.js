@@ -18,7 +18,8 @@ import reportWebVitals from "./reportWebVitals";
 // import App from "./Hooks/useEffect/example6";
 
 // useRef Examples
-import App from "./Hooks/useRef/example1";
+// import App from "./Hooks/useRef/example1";
+import App from "./Hooks/useRef/example2";
 
 // useMemo Examples
 // import App from "./Hooks/useMemo/example1";
