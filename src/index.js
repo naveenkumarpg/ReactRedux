@@ -18,7 +18,7 @@ import reportWebVitals from "./reportWebVitals";
 // import App from "./Hooks/useEffect/example6";
 
 // useRef Examples
-// import App from "./Hooks/useRef/example1";
+import App from "./Hooks/useRef/example1";
 
 // useMemo Examples
 // import App from "./Hooks/useMemo/example1";
@@ -33,7 +33,10 @@ import reportWebVitals from "./reportWebVitals";
 
 // useReducer & useContext example
 // import App from "./Hooks/useReducer/example3/index";
-import App from "./Hooks/useReducer/example4/index";
+// import App from "./Hooks/useReducer/example4/index";
+
+// useCallback Examples
+// import App from "./Hooks/useCallback/example1/index";
 
 ReactDOM.render(
   <React.StrictMode>
