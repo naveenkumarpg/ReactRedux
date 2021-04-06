@@ -6,7 +6,7 @@ function App() {
   useEffect(() => {
     document.title = `You have been changed ${count} times`;
   });
-  // If no parameter is passes it will call evety time the component state is chagned.
+  // If no parameter is passes it will call every time the component state is chagned.
 
   return (
     <button

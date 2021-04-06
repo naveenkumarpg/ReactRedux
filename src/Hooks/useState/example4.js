@@ -1,79 +1,82 @@
 import React, { useState } from "react";
 
-function App() {
-  const [useretails, setUseretails] = useState({
-    username: "",
+function Example4() {
+  const [details, setDetails] = useState({
+    fname: "",
     email: "",
     password: "",
     rpassword: "",
   });
-  const [userData, setUserData] = useState("");
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    setUserData(useretails);
-    setUseretails({ username: "", email: "", password: "", rpassword: "" });
-  };
+  const [buttonClicked, setButtonClicked] = useState(false);
 
   return (
-    <>
-      <h2>Login</h2>
-      <form onSubmit={handleSubmit}>
+    <div>
+      <div>
         <input
-          type="text"
-          placeholder="User Name"
-          value={useretails.username}
+          placeholder="Name"
+          name="fname"
+          value={details.fname}
           onChange={(e) => {
-            setUseretails({
-              ...useretails,
-              username: e.target.value,
+            setDetails({
+              ...details,
+              fname: e.target.value,
             });
           }}
         />
-        <br />
+      </div>
+      <div>
         <input
-          type="text"
           placeholder="Email"
-          value={useretails.email}
+          name="email"
+          value={details.email}
           onChange={(e) => {
-            setUseretails({
-              ...useretails,
+            setDetails({
+              ...details,
               email: e.target.value,
             });
           }}
         />
-        <br />
+      </div>
+      <div>
         <input
-          type="password"
-          placeholder="password"
-          value={useretails.password}
+          placeholder="Password"
+          name="password"
+          value={details.password}
           onChange={(e) => {
-            setUseretails({
-              ...useretails,
+            setDetails({
+              ...details,
               password: e.target.value,
             });
           }}
         />
-        <br />
+      </div>
+      <div>
         <input
-          type="password"
-          placeholder="Retype-Password"
-          value={useretails.rpassword}
+          placeholder="Re-Enter password"
+          name="rpassword"
+          value={details.rpassword}
           onChange={(e) => {
-            setUseretails({
-              ...useretails,
+            setDetails({
+              ...details,
               rpassword: e.target.value,
             });
           }}
         />
-        <br />
-        <input type="submit" />
-        <code>
-          <pre>{userData && JSON.stringify(userData, null, 2)}</pre>
-        </code>
-      </form>
-    </>
+      </div>
+      <div>
+        <button
+          onClick={() => {
+            setButtonClicked(true);
+          }}
+        >
+          Submit the details
+        </button>
+      </div>
+
+      {buttonClicked && <div>{JSON.stringify(details, null, 2)}</div>}
+    </div>
   );
 }
 
-export default App;
+export default Example4;
