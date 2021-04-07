@@ -40,7 +40,10 @@ import reportWebVitals from "./reportWebVitals";
 // import App from "./Hooks/useCallback/example1/index";
 
 // Portals
-import App from "./Portals/index";
+// import App from "./Portals/index";
+
+// Error Boundary
+import App from "./ErrorBoundary/index";
 
 // Error Boundaries
 
