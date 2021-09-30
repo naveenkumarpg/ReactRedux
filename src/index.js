@@ -43,9 +43,10 @@ import reportWebVitals from "./reportWebVitals";
 // import App from "./Portals/index";
 
 // Error Boundary
-import App from "./ErrorBoundary/index";
+// import App from "./ErrorBoundary/index";
 
-// Error Boundaries
+// Higher Order Component
+import App from "./HigherOrderComponent/index";
 
 ReactDOM.render(
   <React.StrictMode>
